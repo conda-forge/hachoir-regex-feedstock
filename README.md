@@ -11,6 +11,18 @@ Summary: Manipulation of regular expressions (regex)
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/hachoir-regex-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/hachoir-regex-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/hachoir-regex-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/hachoir-regex-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/hachoir-regex-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/hachoir-regex-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hachoir-regex/badges/version.svg)](https://anaconda.org/conda-forge/hachoir-regex)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hachoir-regex/badges/downloads.svg)](https://anaconda.org/conda-forge/hachoir-regex)
+
 Installing hachoir-regex
 ========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `hachoir-regex` available on your 
 ```
 conda search hachoir-regex --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/hachoir-regex-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/hachoir-regex-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/hachoir-regex-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/hachoir-regex-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/hachoir-regex-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/hachoir-regex-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hachoir-regex/badges/version.svg)](https://anaconda.org/conda-forge/hachoir-regex)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hachoir-regex/badges/downloads.svg)](https://anaconda.org/conda-forge/hachoir-regex)
 
 
 Updating hachoir-regex-feedstock
