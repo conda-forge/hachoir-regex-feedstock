@@ -1,29 +1,24 @@
-{%set name = "hachoir-regex" %}
 {%set version = "1.0.5" %}
-{%set compress_type = "tar.gz" %}
-{%set hash_type = "sha256" %}
-{%set hash_val = "a35b2bb0ff11418230fffbb97605adba012bf65d2aba3e5e7d8295774d5ba986" %}
 
 package:
-  name: {{ name|lower }}
+  name: hachoir-regex
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ compress_type }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
-  {{ hash_type }}: {{ hash_val }}
+  url: https://pypi.io/packages/source/h/hachoir-regex/hachoir-regex-{{ version }}.tar.gz
+  sha256: a35b2bb0ff11418230fffbb97605adba012bf65d2aba3e5e7d8295774d5ba986
 
 build:
-  skip: True  # [py3k]
-  number: 0
-  script: python setup.py install
+  number: 1
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
-  build:
-    - python
-
+  host:
+    - python <3
+    - pip
   run:
-    - python
+    - python <3
 
 test:
   imports:
